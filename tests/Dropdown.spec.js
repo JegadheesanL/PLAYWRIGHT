@@ -26,7 +26,4 @@ const lan=await page.locator('//select[@id="lang"]')
 await lan.selectOption({label:"C#"})
 const lan1=await lan.locator('option:checked').textContent()
 console.log(lan1)
-
-
-
 })
