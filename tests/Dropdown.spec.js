@@ -27,16 +27,6 @@ await lan.selectOption({label:"C#"})
 const lan1=await lan.locator('option:checked').textContent()
 console.log(lan1)
 
-//Select India using value & print the selected value
-const country=await page.locator('//select[@id="country"]')
- await country. selectOption({value:"India"})
-const country1=await country.locator('option:checked').textContent()
-console.log(country1)
-
-
-// const sp=await page.locator('//select[@id="lang"]//option').allTextContents()
-// console.log(sp)
-
 
 
 })
