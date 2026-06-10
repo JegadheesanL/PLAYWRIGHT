@@ -8,7 +8,7 @@ test('text box',async({page})=>{
     await page.locator('//textarea[@id="permanentAddress"]').fill('Kumaran Nagar ,chennai')
     await page.waitForTimeout(3000)
     await page.locator('//button[@id="submit"]').check
-    
+    //dfghjkl
 
     
 
