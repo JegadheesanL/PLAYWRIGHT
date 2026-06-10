@@ -1,7 +1,7 @@
 import {test} from '@playwright/test'
 test('text box',async({page})=>{
     await page.goto('https://demoqa.com/text-box')
-     await page.locator('//input[@id="userName"]').fill('JegadheesanL')//branch1
+     await page.locator('//input[@id="userName"]').fill('JegadheesanL')//branch2
 
     await page.locator('//input[@class="mr-sm-2 form-control"]').fill('abc@gmailcom')
     await page.locator('//textarea[@placeholder="Current Address"]').fill('trendnologies perungudi,kandanchavadi')
