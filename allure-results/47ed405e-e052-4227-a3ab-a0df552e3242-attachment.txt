@@ -1,0 +1,5 @@
+ok : You clicked a button
+ok or cancel : Do you confirm action?
+prompt box: Please enter your name
+You entered HI
+wait alert: This alert appeared after 5 seconds

@@ -1,0 +1,4 @@
+ok : You clicked a button
+ok or cancel : Do you confirm action?
+prompt box: Please enter your name
+You entered HI

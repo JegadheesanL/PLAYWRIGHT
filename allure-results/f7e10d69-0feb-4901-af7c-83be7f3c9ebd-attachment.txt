@@ -1,0 +1,3 @@
+simple alert: I am an alert box!
+confirmation alert: Press a Button !
+Prompt box: Please enter your name
