@@ -1,6 +1,4 @@
 import{test}from '@playwright/test'
 test('facebook launch',async({page})=>{
     await page.goto('https://www.facebook.com/?_rdr')
-    await page.goto('https://www.facebook.com/?_rdr')
 })
-
